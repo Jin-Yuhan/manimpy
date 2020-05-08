@@ -3,8 +3,8 @@ bilibili三连动画
 """
 
 from manimlib.imports import *
-from vectors import random_direction
-from assets import *
+from manimpy.vectors import random_direction
+from manimpy.assets import *
 
 
 class BilibiliScene(Scene):
@@ -45,7 +45,7 @@ class BilibiliScene(Scene):
             ShowCreation(circle_favo),
             run_time=1.5
         )
-
+        
         self.play(
             FadeOut(circle_coin),
             FadeOut(circle_favo),

@@ -1,7 +1,10 @@
-"""
-表示一个代码块
-"""
-
+'''
+@Author       : Jin Yuhan
+@Date         : 2020-04-07 20:39:32
+@LastEditors  : Jin Yuhan
+@LastEditTime : 2020-05-08 12:08:41
+@Description  : 表示一个代码块
+'''
 from manimlib.imports import *
 
 

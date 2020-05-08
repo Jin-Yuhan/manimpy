@@ -1,7 +1,10 @@
-"""
-提供对向量/方向的操作
-"""
-
+'''
+@Author       : Jin Yuhan
+@Date         : 2020-03-25 17:23:04
+@LastEditors  : Jin Yuhan
+@LastEditTime : 2020-05-08 12:08:12
+@Description  : 提供对向量/方向的操作
+'''
 from manimlib.imports import *
 from typing import Union
 
@@ -116,7 +119,7 @@ def reflect(in_dir: np.ndarray, normal=DOWN) -> np.ndarray:
 
 def cross(v1: np.ndarray, v2: np.ndarray) -> np.ndarray:
     """
-    计算两个向量的叉乘
+    计算两个三维向量的叉乘
     :param v1: 向量1
     :param v2: 向量2
     :return: v1和v2的叉乘

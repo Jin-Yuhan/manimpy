@@ -1,3 +1,12 @@
+'''
+@Author       : Jin Yuhan
+@Date         : 2020-04-09 16:25:03
+@LastEditors  : Jin Yuhan
+@LastEditTime : 2020-04-13 18:10:11
+@Description  : 视频：如何用Manim向MK表白？
+'''
+
+
 from manimpy import *
 
 

@@ -68,7 +68,6 @@ class WriteRandom(LaggedStart):
             for i in return_random_from_word(text)
         ])
 
-
 class UnWriteRandom(WriteRandom):
     CONFIG = {
         "anim_kwargs": {
